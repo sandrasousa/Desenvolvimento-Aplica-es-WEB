@@ -5,9 +5,7 @@
     <xsl:output method="text" indent="yes"/>
     
     <xsl:template match="obra">
-            {
-            "_id": "<xsl:value-of select="@id"/>",
-            "titulo": "<xsl:value-of select="titulo"/>"
-            },
+            "id": "<xsl:value-of select="@id"/>",
+            "titulo": "<xsl:value-of select="titulo"/>",
     </xsl:template>       
 </xsl:stylesheet>
