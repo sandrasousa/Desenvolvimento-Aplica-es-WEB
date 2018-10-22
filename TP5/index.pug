@@ -1,0 +1,14 @@
+extends layout
+
+block corpo
+    .w3-container
+        header.w3-container.w3-teal.w3-center
+            h1 Arquivo de musica
+        .w3-ul.w3-border.w3-center
+            ul Indíce
+            each titulo in ind
+                    li
+                            a(href='http://localhost:5001/obra/' + titulo.id)= titulo.titulo
+                        
+        footer.w3-container.w3-grey.w3-center.w3-text-white
+            address PG38938 
