@@ -1,0 +1,32 @@
+extends layout
+block content
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-teal
+                h3 Registo de tarefa
+            .w3-container
+                 form.w3-container(action='/processaForm' method='POST')
+                    label.w3-text-teal
+                        b Descrição
+                    input.w3-input.w3-border.w3-light-grey(type='text' name='desc')
+                    label.w3-text-teal 
+                        b Data de Registo
+                    p(name='registo')
+                            i #{new Date().getUTCDate() + "/" +  new Date().getUTCMonth() + "/" + new Date().getFullYear()} 
+                    label.w3-text-teal
+                        b Data de Conclusão
+                    input.w3-input.w3-border.w3-light-grey(type='date' name='conclusao')
+                    label.w3-text-teal
+                        b Tipo de Tarefa
+                    p
+                        select(name='tipo')
+                            each val in ['Muito Urgente' , 'Urgente' , 'Pouco Urgente' , 'Nada Urgente']
+                                option=val
+                    br                     
+                    
+                    //botão
+                    input.w3-btn.w3-blue-grey(type='submit' value='Enviar')
+            
+            footer.w3-container.w3-teal
+                address PG38938
+                    a(href='/') Voltar á pagina principal
