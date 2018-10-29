@@ -1,0 +1,18 @@
+{
+  "name": "tp6",
+  "version": "1.0.0",
+  "description": "Aplicação de forms",
+  "main": "server-tarefa-1.js",
+  "scripts": {
+    "s1": "node server-tarefa-1.js",
+    "s2": "node server-tarefa-2.js",
+    "deve": "nodemon server-tarefa-1.js"
+  },
+  "author": "Sandra Sousa",
+  "license": "ISC",
+  "dependencies": {
+    "jsonfile": "^5.0.0",
+    "nodemon": "^1.18.4",
+    "pug": "^2.0.3"
+  }
+}
