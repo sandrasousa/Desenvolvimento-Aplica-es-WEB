@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE manifesto SYSTEM "manifesto.dtd">-->
+<manifesto>
+    <meta>
+        <identificador>T6</identificador>
+        <titulo>HTTP: POST, GET, UPDATE, DELETE</titulo>
+        <subtitulos></subtitulos>
+        <dinicio></dinicio>
+        <dfim>29/10/2018</dfim>
+        <supervisor>
+            <nome>José Carlos Ramalho | </nome>
+            <email>jcr@di.uminho.pt</email>
+            <website>http://www.di.uminho.pt/~jcr/</website>
+        </supervisor>
+    </meta>
+    <equipa>
+        <membro>
+            <nome>Sandra Teixiera Marques de Sousa - </nome>
+            <identificador>PG38938 | </identificador>
+            <email>sandrasousa1908@gmail.com</email>
+            <website> </website>
+            <foto path="../T2/foto.jpg"></foto>
+        </membro>
+    </equipa>
+    <resumo>
+        <para>O objetivo deste T6 é aplicar métodos como o POST, GET, UPDATE e DELETE </para>
+    </resumo>
+    <resultados>
+        <resultado url="manifesto-tp6.xml">manifesto-tp5.xml</resultado>
+        <resultado url="manifesto-tp6.html">manifesto-tp5.html</resultado>
+        <resultado url="https://github.com/sandrasousa/Desenvolvimento-Aplicacoes-WEB.git">GitHub</resultado>
+    </resultados>
+</manifesto>
